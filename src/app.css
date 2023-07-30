@@ -55,7 +55,7 @@ body {
     translateY(var(--translate-y,0));
     /* font-weight: 300; */
 }
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 900px) {
     .header{
         color:white;
         /* align-items: center; */
