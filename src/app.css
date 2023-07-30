@@ -82,14 +82,18 @@ body {
         background-color: white;
         /* height: 600px; 
         width: 400px; */
-        transition: 100ms;
-        transform-style:preserve-3d;
-        transform: perspective(2000px) rotateY(var(--rotate-y, 0));
+        /* transition: 100ms; */
+        /* transform-style:preserve-3d; */
+        /* transform: perspective(2000px) rotateY(var(--rotate-y, 0)); */
         /* font-weight: 300; */
     }
     .card:hover{
         /* --translate-y: -5px; */
         box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
+    }
+    .card.flip {
+        /* --rotate-y:180deg; */
+        display: none;
     }
 
 }
