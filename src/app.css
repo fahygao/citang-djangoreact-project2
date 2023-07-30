@@ -80,8 +80,8 @@ body {
         height: 300px; 
         /* width: 400px; */
         transition: -2ms;
-        transform-style:preserve-3d;
-        transform: perspective(2000px) rotateY(var(--rotate-y, 0));
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0));
         /* font-weight: 300; */
     }
     .card:hover{
@@ -92,6 +92,14 @@ body {
         --rotate-y:180deg;
         /* display: none; */
     }
+
+    .card .front,
+    .card .back {
+    position:absolute;
+    padding: 1rem;
+    -webkit-backface-visibility: hidden;
+
+}
 
 }
 .card:hover{
