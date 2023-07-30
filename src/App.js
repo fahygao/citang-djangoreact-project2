@@ -50,7 +50,7 @@ function App() {
   
   useEffect(() => {
     axios
-    .get('http://fahygaoyf.pythonanywhere.com/')
+    .get('https://fahygaoyf.pythonanywhere.com/')
     .then(res => {
       setFlashcards(res.data.map((questionItem, index) =>
       {
