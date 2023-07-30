@@ -63,7 +63,7 @@ function App() {
       ))
     })
     .catch(err => {})
-    console.Console(res.data)
+    // console.Console(res.data)
   },[])
 
 
