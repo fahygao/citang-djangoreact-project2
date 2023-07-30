@@ -75,9 +75,14 @@ body {
         translateY(var(--translate-y,0));
         /* font-weight: 300; */
     }
+    .card:hover{
+    --translate-y: 0px;
+    box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
+}
 
 }
 .card:hover{
+    --translate-y: -5px;
     box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
 }
 .card.flip {
