@@ -85,7 +85,7 @@ body {
         background-color: white;
         height: 300px; 
         /* width: 400px; */
-        transition:300ms;
+        transition:600ms;
         transform-style: preserve-3d;
 
         transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
