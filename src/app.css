@@ -32,7 +32,7 @@ body {
 .card-grid {
     display:grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(30vw,1fr));
     gap: 1rem;
 }
 .card{
@@ -49,13 +49,25 @@ body {
     /* height: 600px; 
     width: 400px; */
     transform-style: preserve-3d;
-    transition: 150ms;
+    transition:600ms;
     cursor: pointer;
     transform: perspective(1000px) rotateY(var(--rotate-y, 0))
     translateY(var(--translate-y,0));
     /* font-weight: 300; */
 }
 @media screen and (max-width: 1040px) {
+    .header{
+        color:white;
+        /* align-items: center; */
+        /* position: relative; */
+        /* display: block; */
+        text-align: center;
+        margin: 1rem;
+        font-size: 20vw;
+        font-family:"SourceHanSansCN-Heavy";
+        font-weight: 1200;
+    
+    }
     .card{
 
         display:flex;
