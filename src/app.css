@@ -88,10 +88,10 @@ body {
         transition:300ms;
         transform-style: preserve-3d;
 
-        transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
-        -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
-        -moz-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
-        -ms-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
+        transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
+        -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
+        -moz-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
+        -ms-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
         /* transform: perspective(2000px) rotateY(var(--rotate-y, 0)); */
         /* font-weight: 300; */
     }
