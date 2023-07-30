@@ -60,7 +60,7 @@ body {
         display:grid;
         align-items: center;
         grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-        gap: 2rem;
+        gap: 1rem;
     }
     .header{
         color:white;
@@ -121,10 +121,10 @@ body {
     font-family:"SourceHanSansCN-Heavy";
     font-size:32px;
     font-weight: 1400;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
+    transform: translateZ(0) !important;
+    -webkit-transform: translateZ(0) !important;
+    -moz-transform: translateZ(0) !important;
+    -ms-transform: translateZ(0) !important;
     /* text-align: center; */
     }
     .card .back {
