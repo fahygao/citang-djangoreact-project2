@@ -66,11 +66,8 @@ body {
         font-size: 15vw;
         font-family:"SourceHanSansCN-Heavy";
         font-weight: 1200;
-
-    
     }
     .card{
-
         display:flex;
         justify-content: center;
         align-items:center;
