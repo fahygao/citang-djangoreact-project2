@@ -60,7 +60,7 @@ body {
         display:grid;
         align-items: center;
         grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-        gap: 1rem;
+        gap: 2 rem;
     }
     .header{
         color:white;
@@ -83,7 +83,7 @@ body {
         border-radius: .25rem;
         box-shadow:0 0 5px 2px  rgba(255, 255, 255, 0.5);
         background-color: white;
-        height: 300px; 
+        /* height: 300px; */
         /* width: 400px; */
         transition:600ms;
         transform-style: preserve-3d;
@@ -118,6 +118,7 @@ body {
     backface-visibility: hidden;}
 
     .card .front{
+    color: black !important;
     font-family:"SourceHanSansCN-Heavy";
     font-size:32px;
     font-weight: 1400;
