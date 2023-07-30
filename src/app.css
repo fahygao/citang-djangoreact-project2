@@ -83,7 +83,7 @@ body {
         /* height: 600px; 
         width: 400px; */
         transition: 100ms;
-        transform-style:flat;
+        transform-style:preserve-3d;
         transform: perspective(1000px) rotateY(var(--rotate-y, 0));
         /* font-weight: 300; */
     }
