@@ -87,11 +87,14 @@ body {
         /* width: 400px; */
         transition:600ms;
         transform-style: preserve-3d;
-
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+/* 
         transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
         -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
         -moz-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
-        -ms-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
+        -ms-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px); */
         /* transform: perspective(2000px) rotateY(var(--rotate-y, 0)); */
         /* font-weight: 300; */
     }
@@ -108,18 +111,34 @@ body {
     .card .back {
     position:absolute;
     padding: 1rem;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
     backface-visibility: hidden;}
 
     .card .front{
     font-family:"SourceHanSansCN-Heavy";
     font-size:32px;
     font-weight: 1400;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
     /* text-align: center; */
     }
     .card .back {
     color: black !important;
+    transform: rotateY(180deg) translateZ(1px);
+    -webkit-transform: rotateY(180deg) translateZ(1px);
+    -moz-transform: rotateY(180deg) translateZ(1px);
+    -ms-transform: rotateY(180deg) translateZ(1px);
+    font-family:"SourceHanSansCN-normal";
+    margin: 0.2rem;
     }
+
 }
+
 .card:hover{
     --translate-y: -5px;
     box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
