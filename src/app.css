@@ -87,7 +87,12 @@ body {
         /* width: 400px; */
         transition:300ms;
         transform-style: preserve-3d;
-        transform: perspective(2000px) rotateY(var(--rotate-y, 0));
+
+        transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
+        -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
+        -moz-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
+        -ms-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(1px);
+        /* transform: perspective(2000px) rotateY(var(--rotate-y, 0)); */
         /* font-weight: 300; */
     }
     .card:hover{
@@ -105,15 +110,15 @@ body {
     padding: 1rem;
     backface-visibility: hidden;}
 
-.card .front{
+    .card .front{
     font-family:"SourceHanSansCN-Heavy";
     font-size:32px;
     font-weight: 1400;
     /* text-align: center; */
-}
-.card .back {
+    }
+    .card .back {
     color: black !important;
-}
+    }
 }
 .card:hover{
     --translate-y: -5px;
