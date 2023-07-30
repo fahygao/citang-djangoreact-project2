@@ -56,6 +56,12 @@ body {
     /* font-weight: 300; */
 }
 @media screen and (max-width: 900px) {
+    .card-grid {
+        display:grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+        gap: 3rem;
+    }
     .header{
         color:white;
         /* align-items: center; */
