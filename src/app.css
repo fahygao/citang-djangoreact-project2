@@ -46,8 +46,8 @@ body {
     border-radius: .25rem;
     box-shadow:0 0 5px 2px  rgba(255, 255, 255, 0.5);
     background-color: white;
-    /* height: 150px; */
-    /* width: 150px; */
+    /* height: 600px; 
+    width: 400px; */
     transform-style: preserve-3d;
     transition: 150ms;
     cursor: pointer;
@@ -55,7 +55,28 @@ body {
     translateY(var(--translate-y,0));
     /* font-weight: 300; */
 }
+@media screen and (max-width: 1040px) {
+    .card{
 
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        position: relative;
+    
+        /* color: b; */
+        border-radius: .25rem;
+        box-shadow:0 0 5px 2px  rgba(255, 255, 255, 0.5);
+        background-color: white;
+        /* height: 600px; 
+        width: 400px; */
+        transform-style: preserve-3d;
+        transition: 400ms;
+        transform: perspective(1000px) rotateY(var(--rotate-y, 0))
+        translateY(var(--translate-y,0));
+        /* font-weight: 300; */
+    }
+
+}
 .card:hover{
     --translate-y:-5px;
     box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
