@@ -141,4 +141,5 @@ body {
     transform: rotateY(180deg);
     font-family:"SourceHanSansCN-normal";
     margin: 0.2rem;
+    color: black;
 }
