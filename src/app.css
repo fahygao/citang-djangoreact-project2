@@ -79,7 +79,7 @@ body {
         background-color: white;
         height: 300px; 
         /* width: 400px; */
-        -webkit-transition: 150ms;
+        -webkit-transition:all .5s ease;
         -webkit-transform-style: preserve-3d;
         -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0));
         /* font-weight: 300; */
