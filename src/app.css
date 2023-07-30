@@ -70,10 +70,13 @@ body {
         /* height: 600px; 
         width: 400px; */
         transform-style: preserve-3d;
-        transition: 1000ms;
-        transform: perspective(1000px) rotateY(var(--rotate-y, 0))
-        translateY(var(--translate-y,0));
+        transition: 400ms;
+        transform: perspective(1000px) rotateY(var(--rotate-y, 0));
         /* font-weight: 300; */
+    }
+    .card:hover{
+        /* --translate-y:-5px; */
+        box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
     }
 
 }
