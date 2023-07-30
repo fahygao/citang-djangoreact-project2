@@ -97,8 +97,13 @@ body {
     .card .back {
     position:absolute;
     padding: 1rem;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;}
 
+.card .front{
+    font-family:"SourceHanSansCN-Heavy";
+    font-size:32px;
+    font-weight: 1400;
+    /* text-align: center; */
 }
 
 }
