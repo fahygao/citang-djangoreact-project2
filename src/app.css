@@ -69,6 +69,7 @@ body {
         background-color: white;
         /* height: 600px; 
         width: 400px; */
+        transition: 0ms;
         transform-style: preserve-3d;
         transform: perspective(1000px) rotateY(var(--rotate-y, 0))
         translateY(var(--translate-y,0));
