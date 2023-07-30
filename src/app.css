@@ -69,19 +69,19 @@ body {
         background-color: white;
         /* height: 600px; 
         width: 400px; */
+        transition: 0ms;
         transform-style: preserve-3d;
-        transition: 400ms;
         transform: perspective(1000px) rotateY(var(--rotate-y, 0));
         /* font-weight: 300; */
     }
     .card:hover{
-        /* --translate-y:-5px; */
+        /* --translate-y: -5px; */
         box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
     }
 
 }
 .card:hover{
-    --translate-y:-5px;
+    --translate-y: -5px;
     box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
 }
 .card.flip {
