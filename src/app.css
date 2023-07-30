@@ -111,7 +111,9 @@ body {
     font-weight: 1400;
     /* text-align: center; */
 }
-
+.card .back {
+    color: black !important;
+}
 }
 .card:hover{
     --translate-y: -5px;
