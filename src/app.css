@@ -85,7 +85,7 @@ body {
         background-color: white;
         height: 300px; 
         /* width: 400px; */
-        -webkit-transition:400ms;
+        transition:300ms;
         -webkit-transform-style: preserve-3d;
         -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0));
         /* font-weight: 300; */
@@ -103,7 +103,7 @@ body {
     .card .back {
     position:absolute;
     padding: 1rem;
-    -webkit-backface-visibility: hidden;}
+    backface-visibility: hidden;}
 
 .card .front{
     font-family:"SourceHanSansCN-Heavy";
