@@ -92,8 +92,8 @@ body {
         box-shadow: 0 0 5px 2px rgba(255,255,255,0.9)
     }
     .card.flip {
-        /* --rotate-y:180deg; */
-        display: none;
+        --rotate-y:180deg;
+        /* display: none; */
     }
 
 }
