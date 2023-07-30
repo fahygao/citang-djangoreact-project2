@@ -70,7 +70,7 @@ body {
         /* height: 600px; 
         width: 400px; */
         transform-style: preserve-3d;
-        transition: 40ms;
+        transition: 1000ms;
         transform: perspective(1000px) rotateY(var(--rotate-y, 0))
         translateY(var(--translate-y,0));
         /* font-weight: 300; */
