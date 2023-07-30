@@ -60,7 +60,7 @@ body {
         display:grid;
         align-items: center;
         grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-        gap: 2 rem;
+        gap: 2rem;
     }
     .header{
         color:white;
