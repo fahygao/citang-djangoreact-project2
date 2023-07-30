@@ -51,7 +51,7 @@ body {
     transform-style: preserve-3d;
     transition:600ms;
     cursor: pointer;
-    transform: perspective(1000px) rotateY(var(--rotate-y, 0))
+    transform: perspective(2000px) rotateY(var(--rotate-y, 0))
     translateY(var(--translate-y,0));
     /* font-weight: 300; */
 }
@@ -83,8 +83,8 @@ body {
         /* height: 600px; 
         width: 400px; */
         transition: 100ms;
-        transform-style:var(--rotate-y,0);
-        /* transform: perspective(1000px) rotateY(var(--rotate-y, 0)); */
+        transform-style:preserve-3d;
+        transform: perspective(2000px) rotateY(var(--rotate-y, 0));
         /* font-weight: 300; */
     }
     .card:hover{
