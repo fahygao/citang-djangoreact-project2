@@ -32,7 +32,7 @@ body {
 .card-grid {
     display:grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(30vw,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     gap: 1rem;
 }
 .card{
@@ -63,7 +63,7 @@ body {
         /* display: block; */
         text-align: center;
         margin: 1rem;
-        font-size: 12vw;
+        font-size: 40px;
         font-family:"SourceHanSansCN";
         font-weight: 1200;
 
@@ -83,8 +83,8 @@ body {
         /* height: 600px; 
         width: 400px; */
         transition: 100ms;
-        transform-style:preserve-3d;
-        transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+        transform-style:var(--rotate-y,0);
+        /* transform: perspective(1000px) rotateY(var(--rotate-y, 0)); */
         /* font-weight: 300; */
     }
     .card:hover{
