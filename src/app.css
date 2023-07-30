@@ -63,9 +63,10 @@ body {
         /* display: block; */
         text-align: center;
         margin: 1rem;
-        font-size: 20vw;
+        font-size: 12vw;
         font-family:"SourceHanSansCN-Heavy";
-        font-weight: 1200;
+        font-weight: 3000;
+
     
     }
     .card{
