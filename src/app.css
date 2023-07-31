@@ -104,7 +104,7 @@ body {
     }
     .card.flip {
         --rotate-y:180deg;
-        /* display: none; */
+        /* display: none;*/
     }
 
     .card .front,
