@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import FlashcardList from "./FlashcardList";
 import './app.css'
 import axios from "axios";
+import Typical from "react-typical";
 
 // class App extends React.Component{
 //   state = {details: [],}
@@ -65,11 +66,22 @@ function App() {
     .catch(err => {})
   },[])
 
-
+  
 
   return (
 <>
     <div className="header"> 词堂后花园</div>
+    <p className="theaterwords">词堂帮你应对以下场景：</p>
+    <p className="theaterwords1"> - {' '}  
+
+    <Typical
+        steps={['你人还怪好嘞 🆘', 3000, '恐龙抗狼 💃',4000,
+        '布鲁biu布鲁biu', 3000,'安格斯厚牛堡 🍔', 3000, 
+         '词堂', 5000,'炸鱼', 5000,'3agirl', 5000, ]}
+        loop={Infinity}
+        wrapper="b" 
+      /></p>
+  <p className="theaterwords1"> -  啥东西...</p>
     <div className="container"><FlashcardList flashcards = {flashcards} /></div>
     </>
   );

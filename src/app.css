@@ -1,9 +1,25 @@
 body {
     background-color: rgb(0, 0, 0);
+
     /* margin:0; */
     height: 100%;
     font-family:"SourceHanSansCN";
     align-items: center;
+}
+.theaterwords{
+    color:white;
+    text-align: center;
+    font-size: 5vw;
+    font-family:"SourceHanSansCN-Heavy";
+    font-weight: 900;
+}
+.theaterwords1{
+    color:white;
+    text-align: left;
+    font-size: 5vw;
+    font-family:"SourceHanSansCN-Heavy";
+    font-weight: 900;
+    margin-left: 20%;
 }
 .container{
     max-width: 100%;
@@ -169,3 +185,4 @@ body {
     margin: 0.2rem;
     color: black;
 }
+
