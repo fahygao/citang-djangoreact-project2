@@ -53,15 +53,18 @@ function App() {
     axios
     .get('https://fahygaoyf.pythonanywhere.com/')
     .then(res => {
-      setFlashcards(res.data.map((questionItem, index) =>
-      {
+      // var total_length = res.data.length
+      setFlashcards(res.data.reverse().map((questionItem, index) =>
+      {      
         return {
           id: `${index}-${Date.now()}`,
           question: questionItem.word,
           answer: questionItem.Long_Definition,
+          // total_length: res.data.length,
         }
       }
       ))
+
     })
     .catch(err => {})
   },[])
@@ -77,7 +80,8 @@ function App() {
     <Typical
         steps={['你人还怪好嘞 🆘', 3000, '恐龙抗狼 💃',4000,
         '布鲁biu布鲁biu', 3000,'安格斯厚牛堡 🍔', 3000, 
-         '词堂', 5000,'炸鱼', 5000,'3agirl', 5000, ]}
+         '词堂', 5000,'炸鱼', 5000,'3agirl 💁🏻‍♀️', 5000, 
+         '日本生可乐 🥤', 5000, '奔周婆 🔞', 5000,]}
         loop={Infinity}
         wrapper="b" 
       /></p>
