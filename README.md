@@ -7,4 +7,3 @@ Backend api and server powered by Python Anywhere: https://fahygaoyf.pythonanywh
 Frontend server powered by Vercel: https://vercel.com/fahygao
 
 Hope y'all having fun learning Chinese!
-# citang-djanngo-react-dictionary
