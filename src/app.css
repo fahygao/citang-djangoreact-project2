@@ -86,10 +86,10 @@ body {
         height: 300px; 
         /* width: 400px; */
         transition:600ms;
-        transform-style: preserve-3d;
-        -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
-        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d !important;
+        -webkit-transform-style: preserve-3d !important;
+        -moz-transform-style: preserve-3d !important;
+        -ms-transform-style: preserve-3d !important;
 /* 
         transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
         -webkit-transform: perspective(2000px) rotateY(var(--rotate-y, 0)) translateZ(2px);
@@ -104,7 +104,7 @@ body {
     }
     .card.flip {
         --rotate-y:180deg;
-        /* display: none;*/
+        /* display: none; */
     }
 
     .card .front,
@@ -121,10 +121,10 @@ body {
     font-family:"SourceHanSansCN-Heavy";
     font-size:32px;
     font-weight: 1400;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
+    transform: translateZ(0) !important;
+    -webkit-transform: translateZ(0) !important;
+    -moz-transform: translateZ(0) !important;
+    -ms-transform: translateZ(0) !important;
     /* text-align: center; */
     }
     .card .back {
