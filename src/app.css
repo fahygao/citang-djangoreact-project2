@@ -179,10 +179,12 @@ body {
 }
 
 .card .back {
-
-    transform: rotateY(180deg);
+    color: black !important;
+    transform: rotateY(180deg) translateZ(1px) !important;
+    -webkit-transform: rotateY(180deg) translateZ(1px) !important;
+    -moz-transform: rotateY(180deg) translateZ(1px) !important;
+    -ms-transform: rotateY(180deg) translateZ(1px) !important;
     font-family:"SourceHanSansCN-normal";
     margin: 0.2rem;
-    color: black;
 }
 
