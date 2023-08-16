@@ -88,7 +88,7 @@ function App() {
       /></p>
   <p className="theaterwords1"> -  啥东西...</p>
       <Search details={flashcards}/>
-    {/* <div className="container"><FlashcardList flashcards = {flashcards} /></div> */}
+    <div className="container"><FlashcardList flashcards = {flashcards} /></div>
     </>
   );
 }

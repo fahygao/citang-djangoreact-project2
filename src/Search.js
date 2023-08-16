@@ -5,6 +5,7 @@ import SearchList from "./SearchList";
 
 export default function Search({details}) {
     const [searchField, setSearchField] = useState("")
+    const [searchShow, setSearchShow] = useState(false); 
 
     const filtereDefinitions = details.filter(
         flashcard => {
@@ -20,15 +21,23 @@ export default function Search({details}) {
     );
     const handleChange = e => {
         setSearchField(e.target.value);
+        if(e.target.value===""){
+            setSearchShow(false);
+          }
+          else {
+            setSearchShow(true);
+          }
     };
 
 
     function searchList() {
+        if (searchShow) {
         return (
             <div className="container">
             <SearchList filtereDefinitions={filtereDefinitions} />
         </div>
-        );
+        )
+        }
       }
 
       return (
