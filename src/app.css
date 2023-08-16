@@ -50,12 +50,13 @@ body {
     width: 80%;
     text-align: center;
     font-family:"SourceHanSansCN-Heavy";
+    border-radius: 0.25rem;
     
 }
 .pa2 {
 
-    align-items: center;
     text-align: center;
+    border-radius: 0.25rem;
 }
 .card-grid {
     display:grid;
