@@ -31,6 +31,5 @@ export default function Flashcard({ flashcard }) {
         </div>
         <div className='back' ref={backEl}>{flashcard.answer}</div>
         </div>
-    )
+    );
 }
-

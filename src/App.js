@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import FlashcardList from "./FlashcardList";
+import Search from './Search';
 import './app.css'
 import axios from "axios";
 import Typical from "react-typical";
@@ -86,7 +87,8 @@ function App() {
         wrapper="b" 
       /></p>
   <p className="theaterwords1"> -  啥东西...</p>
-    <div className="container"><FlashcardList flashcards = {flashcards} /></div>
+      <Search details={flashcards}/>
+    {/* <div className="container"><FlashcardList flashcards = {flashcards} /></div> */}
     </>
   );
 }
