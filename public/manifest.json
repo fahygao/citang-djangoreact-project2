@@ -1,6 +1,6 @@
 {
-  "short_name": "✨词堂✨后花园",
-  "name": "斯是陋室，为吾德馨。",
+  "short_name": "Xincitionary",
+  "name": "词堂后花园",
   "icons": [
     {
       "src": "logo.ico",
@@ -18,8 +18,11 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://citang-djangoreact-project2.vercel.app/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "id": "xincitionary",
+  "description": "Chinese Slang words with definitions.",
+  "lang": "zh"
 }
