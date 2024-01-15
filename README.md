@@ -12,4 +12,7 @@ Hope y'all having fun learning Chinese!
 
 ## Showcase:
 
-![ezgif-5-a75ab2520c](https://github.com/fahygao/citang-djangoreact-project2/assets/48902014/b7bdf610-d346-485b-af55-6396aaf9ae15)
+![showcase](https://github.com/fahygao/citang-djangoreact-project2/assets/48902014/b7bdf610-d346-485b-af55-6396aaf9ae15)
+
+## Microsoft Store
+[Download](https://apps.microsoft.com/detail/9NKJVLX2NGZ6)
