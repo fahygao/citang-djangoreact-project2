@@ -1,5 +1,5 @@
 {
-  "short_name": "Xincitionary",
+  "short_name": "词堂",
   "name": "词堂后花园",
   "icons": [
     {
@@ -18,11 +18,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://citang-djangoreact-project2.vercel.app/",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "id": "xincitionary",
-  "description": "Chinese Slang words with definitions.",
+  "background_color": "#000000",
+  "description": "Chinese slang words with definitions.",
   "lang": "zh"
 }
